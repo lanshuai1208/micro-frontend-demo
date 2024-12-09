@@ -34,7 +34,26 @@ module.exports = {
                             path: '/learn/1-architecture-basics/1-6-system-refactor/',
                         },
                     ]
+                },
+                {
+                    title: '2 基础前期准备',
+                    path: '/learn/2-basic-preparation/',
+                    children: [
+                        {
+                            title: '2.1 微前端实现方式对比',
+                            path: '/learn/2-basic-preparation/2-1-achivement-compare/'
+                        },
+                        {
+                            title: '2.2 技术选型-确定技术栈',
+                            path: '/learn/2-basic-preparation/2-2-determine-technology-stack/'
+                        },
+                        {
+                            title: '2.3 绘制项目架构图',
+                            path: '/learn/2-basic-preparation/2-3-draw-project-atrchitecture-diagram/'
+                        }
+                    ]
                 }
+
                 //     {
                 //     title: '1 架构基础知识',
                 //     path: 'learn/1-architecture-basics/',
