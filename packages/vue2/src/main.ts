@@ -5,10 +5,10 @@ import App from './App.vue'
 
 Vue.config.productionTip = false
 
-let instance = null;
-console.log(instance);
+// let instance = null;
+// console.log(instance);
 
-console.log('App is ', App)
+// console.log('App is ', App)
 
 new Vue({
   // router,

@@ -69,7 +69,8 @@
 </template>
 
 <script lang="ts">
-export default {
+import Vue from 'vue';
+export default Vue.extend({
   name: 'car-swapper',
   data () {
     return {
@@ -103,11 +104,11 @@ export default {
       }
       this.currentIndex = index
     },
-    hoverArrow(key: 'rightHover' | 'leftHover', type: boolean){
+    hoverArrow(key: 'rightHover' | 'leftHover', type: any){
       this[key] = type;
     }
   },
-};
+})
 </script>
 
 <style lang="scss">

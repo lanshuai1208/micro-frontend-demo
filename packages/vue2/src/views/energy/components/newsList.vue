@@ -75,10 +75,11 @@
 </template>
 
 <script lang="ts">
+import Vue from 'vue'
 import VTabs from '../../../components/v-tabs/index.vue'
 const rankCar = require('../../../assets/rank-car.png')
 import axios from 'axios'
-export default {
+export default Vue.extend({
   name: 'newsList',
   components: {
     VTabs,
@@ -134,7 +135,7 @@ export default {
     this.getNewList()
     this.getRankList()
   }
-};
+})
 </script>
 
 <style lang="scss">

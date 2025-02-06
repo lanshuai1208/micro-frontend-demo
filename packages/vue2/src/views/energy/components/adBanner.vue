@@ -13,7 +13,7 @@ export default {
 </script>
 
 <style lang="scss">
-.ad-banner-container {
+.ad-banner-container{
   width: 100%;
   height: 80px;
   margin: 30px 0;

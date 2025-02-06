@@ -12,8 +12,9 @@
 </template>
 
 <script lang="ts">
+import Vue from 'vue';
 import axios from 'axios'
-export default {
+export default Vue.extend({
   name: 'carList',
   data () {
     return {
@@ -29,7 +30,7 @@ export default {
   mounted() {
     this.getCarLst()
   }
-};
+})
 </script>
 
 <style lang="scss">

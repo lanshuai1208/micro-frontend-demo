@@ -13,9 +13,9 @@
 </template>
 
 <script lang="ts">
-import { PropType } from 'vue';
+import  Vue, {PropType} from 'vue';
 
-export default {
+export default Vue.extend({
   name: 'index',
   props: {
     list: {
@@ -64,7 +64,7 @@ export default {
       this.currentNav = index
     }
   },
-};
+})
 </script>
 
 <style lang="scss">

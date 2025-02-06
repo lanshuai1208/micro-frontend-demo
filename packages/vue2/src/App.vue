@@ -1,23 +1,11 @@
 <template>
   <div id="app-vue">
-  <button @click="sayName">sayName</button>
-    <!-- <router-view /> -->
+    <router-view />
   </div>
 </template>
 <script>
 export default {
   name: 'App',
-  data(){
-    return {
-      name: 'zhangsan'
-    }
-  },
-  methods: {
-    sayName(){
-      console.log(this.name)
-    }
-  }
-
 }
 </script>
 <style>
