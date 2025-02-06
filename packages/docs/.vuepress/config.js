@@ -52,6 +52,52 @@ module.exports = {
                             path: '/learn/2-basic-preparation/2-3-draw-project-atrchitecture-diagram/'
                         }
                     ]
+                },
+                {
+                    title: '3 应用开发',
+                    path: '/learn/3-application-develop/',
+                    children: [
+                        {
+                            title: '3.1 vue2 子应用',
+                            path: '/learn/3-application-develop/3-1-vue2-sub-app/'
+                        },
+                        {
+                            title: '3.2 vue3 子应用',
+                            path: '/learn/3-application-develop/3-2-vue3-sub-app/'
+                        },
+                        {
+                            title: '3.3 react15子应用',
+                            path: '/learn/3-application-develop/3-3-react15-sub-app/'
+                        },
+                        {
+                            title: '3.4 react16子应用',
+                            path: '/learn/3-application-develop/3-4-react16-sub-app/'
+                        },
+                        {
+                            title: '3.5 构建一个后端服务',
+                            path: '/learn/3-application-develop/3-5-backend-server/'
+                        },
+                        {
+                            title: '3.6 后端服务请求处理',
+                            path: '/learn/3-application-develop/3-6-backend-request-handler/'
+                        },
+                        {
+                            title: '3.7 子应用接入微前端-vue2',
+                            path: '/learn/3-application-develop/3-7-vue2-imbed/'
+                        },
+                        {
+                            title: '3.8 子应用接入微前端-vue3',
+                            path: '/learn/3-application-develop/3-8-vue3-imbed/'
+                        },
+                        {
+                            title: '3.9 子应用接入微前端-react15',
+                            path: '/learn/3-application-develop/3-9-react15-imbed/'
+                        },
+                        {
+                            title: '3.9 子应用接入微前端-react16',
+                            path: '/learn/3-application-develop/3-10-react16-imbed/'
+                        },
+                    ]
                 }
 
                 //     {
