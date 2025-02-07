@@ -1,5 +1,6 @@
 <template>
   <div class="energy-container">
+  Energy
     <div class="energy-content">
       <!-- 导航列表 -->
       <VTabs />

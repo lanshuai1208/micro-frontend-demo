@@ -1,9 +1,9 @@
-import Vue from 'vue'
-import App from './App.vue'
-// import router from './router';
+import Vue from "vue";
+import App from "./App.vue";
+import router from './router';
 // import store from './store';
 
-Vue.config.productionTip = false
+Vue.config.productionTip = false;
 
 // let instance = null;
 // console.log(instance);
@@ -11,9 +11,9 @@ Vue.config.productionTip = false
 // console.log('App is ', App)
 
 new Vue({
-  // router,
-  render: h => h(App)
-}).$mount('#app-vue')
+  router,
+  render: (h) => h(App),
+}).$mount("#app-vue");
 
 // export async function bootstrap() {
 //   console.log('vue app bootstraped');

@@ -1,3 +1,9 @@
 {
-  "editor.formatOnSave": true
+  "editor.formatOnSave": true,
+  "CodeGPT.apiKey": "CodeGPT Plus Beta",
+  "workbench.colorCustomizations": {
+    "activityBar.background": "#40290F",
+    "titleBar.activeBackground": "#593914",
+    "titleBar.activeForeground": "#FDF9F5"
+  }
 }

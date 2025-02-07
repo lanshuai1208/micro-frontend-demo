@@ -55,7 +55,7 @@ export default Vue.extend({
     }
   },
   computed: {
-    tabList() {
+    tabList(): {label: string; value: number}[] {
       return this.list.length ? this.list : this.navList
     }
   },
