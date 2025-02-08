@@ -2,6 +2,9 @@
 module.exports = {
     root: true,
     parser: 'vue-eslint-parser',
+    env: {
+        node: true // 添加这行来允许使用 require
+    },
     extends: [
         'eslint:recommended',
         'plugin:vue/recommended',

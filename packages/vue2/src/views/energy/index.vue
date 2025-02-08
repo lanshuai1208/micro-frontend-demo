@@ -1,6 +1,5 @@
 <template>
   <div class="energy-container">
-  Energy
     <div class="energy-content">
       <!-- 导航列表 -->
       <VTabs />
@@ -17,36 +16,33 @@
 </template>
 
 <script lang="ts">
-// import VTabs from '../../components/v-tabs/index.vue'
-// import CarList from './components/carList.vue'
-// import CarSwapper from './components/carSwapper.vue'
-// import AdBanner from './components/adBanner.vue'
-// import NewsList from './components/newsList.vue'
+import VTabs from "../../components/v-tabs/index.vue";
+import CarList from "./components/carList.vue";
+import CarSwapper from "./components/carSwapper.vue";
+import AdBanner from "./components/adBanner.vue";
+import NewsList from "./components/newsList.vue";
 export default {
-  name: 'index',
+  name: "index",
   components: {
-    // VTabs,
-    // CarList,
-    // CarSwapper,
-    // AdBanner,
-    // NewsList,
+    VTabs,
+    CarList,
+    CarSwapper,
+    AdBanner,
+    NewsList,
   },
-  data () {
-    return {
-    }
+  data() {
+    return {};
   },
-  methods: {
-
-  },
+  methods: {},
 };
 </script>
 
 <style lang="scss">
-.energy{
-  &-container{
+.energy {
+  &-container {
     width: 100%;
   }
-  &-content{
+  &-content {
     width: 1200px;
     margin: 0 auto;
   }
